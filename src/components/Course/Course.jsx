@@ -1,6 +1,6 @@
 import {BsBook}  from "react-icons/bs";
 import PropTypes from 'prop-types'
-const Course = ({course}) => {
+const Course = ({course ,handleSelectCourse}) => {
     const {image,title,credit,price,details} = course;
     console.log(course);
     return (
@@ -16,13 +16,14 @@ const Course = ({course}) => {
                  <h4 className="text-2xl"><BsBook></BsBook></h4>
                 <p className='text-lg font-medium text-gray-500'>Credit : {credit}hr</p>
              </div>
-             <button className='w-full py-2 rounded-lg text-lg font-semibold text-white bg-blue-500'>Select</button>
+             <button onClick={() => handleSelectCourse(course)} className='w-full py-2 rounded-lg text-lg font-semibold text-white bg-blue-500'>Select</button>
             
         </div>
     );
 };
 Course.propTypes = {
-    course:PropTypes.object
+    course:PropTypes.object,
+    handleSelectCourse:PropTypes.function
 }
 
 export default Course;
