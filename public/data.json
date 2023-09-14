@@ -1,74 +1,74 @@
 [
     {    
         "id":1,
-        "image": "https://example.com/course1.jpg",
-        "title": "Introduction to Programming",
-        "credit": 3,
-        "price": 299.99,
-        "details": "Learn the fundamentals of programming in this introductory course."
+        "image": "https://i.ibb.co/bNyP6Qd/Rectangle-2-2.png",
+        "title": "Introduction to C Programming",
+        "credit": 1,
+        "price": 15000,
+        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
     },
     {
         "id":2,
-        "image": "https://example.com/course2.jpg",
-        "title": "Data Science for Beginners",
-        "credit": 4,
-        "price": 399.99,
-        "details": "Start your journey into data science with this beginner-friendly course."
+        "image": "https://i.ibb.co/BqLrk8n/Rectangle-2-3.png",
+        "title": "Introduction to Algorithms",
+        "credit": 2,
+        "price": 25000,
+        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
     },
     {
         "id":3,
-        "image": "https://example.com/course3.jpg",
+        "image": "https://i.ibb.co/LpSgFSs/Rectangle-2-4.png",
         "title": "Web Development Bootcamp",
-        "credit": 5,
-        "price": 499.99,
-        "details": "Become a web developer in just 12 weeks with this intensive bootcamp."
+        "credit": 10,
+        "price": 10000,
+        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
     },
     {
         "id":4,
-        "image": "https://example.com/course4.jpg",
+        "image": "https://i.ibb.co/Qn4cHNP/Rectangle-3.png",
         "title": "Graphic Design Fundamentals",
-        "credit": 2,
-        "price": 249.99,
-        "details": "Learn the basics of graphic design and unleash your creativity."
+        "credit": 5,
+        "price": 35000,
+        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
     },
     {
         "id":5,
-        "image": "https://example.com/course5.jpg",
+        "image": "https://i.ibb.co/52bCMwr/Rectangle-2.png",
         "title": "Machine Learning Mastery",
-        "credit": 4,
-        "price": 599.99,
-        "details": "Master machine learning algorithms and techniques with hands-on projects."
+        "credit": 5,
+        "price": 19000,
+        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
     },
     {
         "id":6,
-        "image": "https://example.com/course6.jpg",
+        "image": "https://i.ibb.co/DkZCg3v/Rectangle-2-5.png",
         "title": "Digital Marketing Essentials",
-        "credit": 3,
-        "price": 349.99,
-        "details": "Learn the core principles of digital marketing to boost your online presence."
+        "credit": 2,
+        "price": 23000,
+        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
     },
     {
         "id":7,
-        "image": "https://example.com/course7.jpg",
+        "image": "https://i.ibb.co/vQxJSFC/Rectangle-3-1.png",
         "title": "Photography Basics",
-        "credit": 2,
-        "price": 199.99,
-        "details": "Discover the art of photography and capture stunning images."
+        "credit": 5,
+        "price": 35000,
+        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
     },
     {
         "id":8,
-        "image": "https://example.com/course8.jpg",
+        "image": "https://i.ibb.co/kmLFcgm/Rectangle-2-1.png",
         "title": "Business Finance for Entrepreneurs",
-        "credit": 3,
-        "price": 299.99,
-        "details": "Manage your business finances effectively with expert guidance."
+        "credit": 5,
+        "price": 19000,
+        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
     },
     { 
         "id":9,
-        "image": "https://example.com/course9.jpg",
+        "image": "https://i.ibb.co/JcjBz9D/Rectangle-2-6.png",
         "title": "Spanish Language Immersion",
-        "credit": 4,
-        "price": 349.99,
-        "details": "Immerse yourself in the Spanish language and culture with this immersive course."
+        "credit": 2,
+        "price": 23000,
+        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
     }
 ]
