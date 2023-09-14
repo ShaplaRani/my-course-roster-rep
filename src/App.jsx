@@ -2,13 +2,36 @@ import { useState } from "react";
 import Courses from "./components/Courses/Courses"
 import Cart from "./components/cart/cart"
 
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
    const [selectCourses ,setSelectCourses] = useState([]);
+   const [totalCredits,setTotalCredits] = useState(0);
+   const [remainingCredits, setRemainingCredits] = useState(0);
+   const [totalPrices,setTotalPrices] = useState(0);
   const handleSelectCourse = (course) => {
-    setSelectCourses([...selectCourses, course]);
-     console.log('click');
+    const isExist = selectCourses.find((item) => item.id === course.id);
+    let totalCredit = course.credit;
+    let totalPrice = course.price; 
+    if(isExist){
+      alert("Wow so easy!");
+    }else{
+      selectCourses.map(selectCourse =>{ totalCredit += selectCourse.credit})
+      selectCourses.map(selectCourse =>{ totalPrice += selectCourse.price})
+      const remainingCredit = 20 - totalCredit;
+      if(totalCredit > 20 || remainingCredit < 0){
+        alert("Wow so easy!");
+      }else{
+        setTotalCredits(totalCredit);
+        setRemainingCredits(remainingCredit);
+        setTotalPrices(totalPrice);
+        setSelectCourses([...selectCourses, course]);
+        }
+
+
+    }
+    
   }
   return (
 
@@ -19,7 +42,7 @@ function App() {
       <div className="md:flex gap-6">
          <Courses handleSelectCourse ={handleSelectCourse}></Courses>
 
-         <Cart selectCourses ={selectCourses}></Cart>
+         <Cart totalPrices={totalPrices} totalCredits={totalCredits} remainingCredits={remainingCredits} selectCourses ={selectCourses}></Cart>
       </div>
     </div>
      

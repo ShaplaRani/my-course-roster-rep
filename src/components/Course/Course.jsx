@@ -16,7 +16,8 @@ const Course = ({course ,handleSelectCourse}) => {
                  <h4 className="text-2xl"><BsBook></BsBook></h4>
                 <p className='text-lg font-medium text-gray-500'>Credit : {credit}hr</p>
              </div>
-             <button onClick={() => handleSelectCourse(course)} className='w-full py-2 rounded-lg text-lg font-semibold text-white bg-blue-500'>Select</button>
+             <button onClick={() => handleSelectCourse(course)} className='w-full py-2 rounded-lg 
+             text-lg font-semibold text-white bg-blue-500'>Select</button>
             
         </div>
     );
