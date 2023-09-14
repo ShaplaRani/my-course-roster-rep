@@ -1,0 +1,74 @@
+[
+    {    
+        "id":1,
+        "image": "https://example.com/course1.jpg",
+        "title": "Introduction to Programming",
+        "credit": 3,
+        "price": 299.99,
+        "details": "Learn the fundamentals of programming in this introductory course."
+    },
+    {
+        "id":2,
+        "image": "https://example.com/course2.jpg",
+        "title": "Data Science for Beginners",
+        "credit": 4,
+        "price": 399.99,
+        "details": "Start your journey into data science with this beginner-friendly course."
+    },
+    {
+        "id":3,
+        "image": "https://example.com/course3.jpg",
+        "title": "Web Development Bootcamp",
+        "credit": 5,
+        "price": 499.99,
+        "details": "Become a web developer in just 12 weeks with this intensive bootcamp."
+    },
+    {
+        "id":4,
+        "image": "https://example.com/course4.jpg",
+        "title": "Graphic Design Fundamentals",
+        "credit": 2,
+        "price": 249.99,
+        "details": "Learn the basics of graphic design and unleash your creativity."
+    },
+    {
+        "id":5,
+        "image": "https://example.com/course5.jpg",
+        "title": "Machine Learning Mastery",
+        "credit": 4,
+        "price": 599.99,
+        "details": "Master machine learning algorithms and techniques with hands-on projects."
+    },
+    {
+        "id":6,
+        "image": "https://example.com/course6.jpg",
+        "title": "Digital Marketing Essentials",
+        "credit": 3,
+        "price": 349.99,
+        "details": "Learn the core principles of digital marketing to boost your online presence."
+    },
+    {
+        "id":7,
+        "image": "https://example.com/course7.jpg",
+        "title": "Photography Basics",
+        "credit": 2,
+        "price": 199.99,
+        "details": "Discover the art of photography and capture stunning images."
+    },
+    {
+        "id":8,
+        "image": "https://example.com/course8.jpg",
+        "title": "Business Finance for Entrepreneurs",
+        "credit": 3,
+        "price": 299.99,
+        "details": "Manage your business finances effectively with expert guidance."
+    },
+    { 
+        "id":9,
+        "image": "https://example.com/course9.jpg",
+        "title": "Spanish Language Immersion",
+        "credit": 4,
+        "price": 349.99,
+        "details": "Immerse yourself in the Spanish language and culture with this immersive course."
+    }
+]
