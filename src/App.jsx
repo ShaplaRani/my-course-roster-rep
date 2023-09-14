@@ -15,13 +15,13 @@ function App() {
     let totalCredit = course.credit;
     let totalPrice = course.price; 
     if(isExist){
-      alert("Wow so easy!");
+      toast("This course already marked in cart,please another course add to cart ");
     }else{
       selectCourses.map(selectCourse =>{ totalCredit += selectCourse.credit})
       selectCourses.map(selectCourse =>{ totalPrice += selectCourse.price})
       const remainingCredit = 20 - totalCredit;
       if(totalCredit > 20 || remainingCredit < 0){
-        alert("Wow so easy!");
+        toast("Your credit has been cross limited ");
       }else{
         setTotalCredits(totalCredit);
         setRemainingCredits(remainingCredit);
@@ -41,9 +41,9 @@ function App() {
       <h1 className="text-3xl font-bold text-black text-center pt-14 mb-8"> Course Registration</h1>
       <div className="md:flex gap-6">
          <Courses handleSelectCourse ={handleSelectCourse}></Courses>
-
-         <Cart totalPrices={totalPrices} totalCredits={totalCredits} remainingCredits={remainingCredits} selectCourses ={selectCourses}></Cart>
+        <Cart totalPrices={totalPrices} totalCredits={totalCredits} remainingCredits={remainingCredits} selectCourses ={selectCourses}></Cart>
       </div>
+      <ToastContainer></ToastContainer>
     </div>
      
     </div>
