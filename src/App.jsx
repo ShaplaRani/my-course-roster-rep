@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Courses from "./components/Courses/Courses"
-import Cart from "./components/cart/cart"
+import Courses from "./components/Courses/Courses";
+import Cart from "./components/cart/cart";
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -17,8 +17,8 @@ function App() {
     if(isExist){
       toast("This course already marked in cart,please another course add to cart ");
     }else{
-      selectCourses.map(selectCourse =>{ totalCredit += selectCourse.credit})
-      selectCourses.map(selectCourse =>{ totalPrice += selectCourse.price})
+      selectCourses.map(selectCourse =>{ totalCredit += selectCourse.credit});
+      selectCourses.map(selectCourse =>{ totalPrice += selectCourse.price});
       const remainingCredit = 20 - totalCredit;
       if(totalCredit > 20 || remainingCredit < 0){
         toast("Your credit has been cross limited ");
@@ -28,18 +28,15 @@ function App() {
         setTotalPrices(totalPrice);
         setSelectCourses([...selectCourses, course]);
         }
-
-
-    }
-    
+      }
   }
   return (
 
-    <div className="bg-slate-50">
+    <div className="bg-slate-100">
      
-    <div className="w-10/12 m-auto">
+    <div className="w-10/12 m-auto pb-20">
       <h1 className="text-3xl font-bold text-black text-center pt-14 mb-8"> Course Registration</h1>
-      <div className="md:flex gap-6">
+      <div className="lg:flex space-y-5 lg:space-y-0 gap-6">
          <Courses handleSelectCourse ={handleSelectCourse}></Courses>
         <Cart totalPrices={totalPrices} totalCredits={totalCredits} remainingCredits={remainingCredits} selectCourses ={selectCourses}></Cart>
       </div>
@@ -47,7 +44,7 @@ function App() {
     </div>
      
     </div>
-  )
+  );
 }
 
 export default App

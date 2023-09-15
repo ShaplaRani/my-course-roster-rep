@@ -18,7 +18,7 @@
     {
         "id":3,
         "image": "https://i.ibb.co/LpSgFSs/Rectangle-2-4.png",
-        "title": "Web Development Bootcamp",
+        "title": "Introduction to C++ for DSA",
         "credit": 10,
         "price": 10000,
         "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
@@ -26,7 +26,7 @@
     {
         "id":4,
         "image": "https://i.ibb.co/Qn4cHNP/Rectangle-3.png",
-        "title": "Graphic Design Fundamentals",
+        "title": "Basic Data Structures",
         "credit": 5,
         "price": 35000,
         "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
@@ -34,7 +34,7 @@
     {
         "id":5,
         "image": "https://i.ibb.co/52bCMwr/Rectangle-2.png",
-        "title": "Machine Learning Mastery",
+        "title": "Introduction to OOP Python",
         "credit": 5,
         "price": 19000,
         "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
@@ -42,7 +42,7 @@
     {
         "id":6,
         "image": "https://i.ibb.co/DkZCg3v/Rectangle-2-5.png",
-        "title": "Digital Marketing Essentials",
+        "title": "Software Engineering",
         "credit": 2,
         "price": 23000,
         "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
@@ -50,7 +50,7 @@
     {
         "id":7,
         "image": "https://i.ibb.co/vQxJSFC/Rectangle-3-1.png",
-        "title": "Photography Basics",
+        "title": "AWS, Cloud Computing",
         "credit": 5,
         "price": 35000,
         "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
@@ -58,7 +58,7 @@
     {
         "id":8,
         "image": "https://i.ibb.co/kmLFcgm/Rectangle-2-1.png",
-        "title": "Business Finance for Entrepreneurs",
+        "title": "Database (MySQL)",
         "credit": 5,
         "price": 19000,
         "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
@@ -66,7 +66,7 @@
     { 
         "id":9,
         "image": "https://i.ibb.co/JcjBz9D/Rectangle-2-6.png",
-        "title": "Spanish Language Immersion",
+        "title": "Problem-Solving Part",
         "credit": 2,
         "price": 23000,
         "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
