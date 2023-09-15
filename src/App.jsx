@@ -8,7 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 function App() {
    const [selectCourses ,setSelectCourses] = useState([]);
    const [totalCredits,setTotalCredits] = useState(0);
-   const [remainingCredits, setRemainingCredits] = useState(0);
+   const [remainingCredits, setRemainingCredits] = useState(20);
    const [totalPrices,setTotalPrices] = useState(0);
   const handleSelectCourse = (course) => {
     const isExist = selectCourses.find((item) => item.id === course.id);
