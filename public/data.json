@@ -5,7 +5,7 @@
         "title": "Introduction to C Programming",
         "credit": 1,
         "price": 15000,
-        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        "details":"This course covers the fundamentals of C programming language. You will learn about variables, data types, control structures, functions, and more. Whether you're a beginner or looking to refresh your C programming skills, this course is for you."
     },
     {
         "id":2,
@@ -13,7 +13,7 @@
         "title": "Introduction to Algorithms",
         "credit": 2,
         "price": 25000,
-        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        "details":"Explore essential algorithms and their applications in this comprehensive course. You will delve into sorting algorithms, searching algorithms, graph algorithms, and dynamic programming. Gain the problem-solving skills you need for various domains."
     },
     {
         "id":3,
@@ -21,7 +21,7 @@
         "title": "Introduction to C++ for DSA",
         "credit": 10,
         "price": 10000,
-        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        "details": "Master C++ for data structures and algorithms (DSA). This course will teach you C++ programming while focusing on DSA concepts like arrays, linked lists, trees, and searching and sorting algorithms. Get ready to excel in coding interviews."
     },
     {
         "id":4,
@@ -29,7 +29,7 @@
         "title": "Basic Data Structures",
         "credit": 5,
         "price": 35000,
-        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        "details": "Build a solid foundation in data structures and their usage. You'll learn about arrays, stacks, queues, and linked lists. Practical examples and hands-on exercises will ensure you understand the core data structures essential for programming."
     },
     {
         "id":5,
@@ -37,7 +37,7 @@
         "title": "Introduction to OOP Python",
         "credit": 5,
         "price": 19000,
-        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        "details":"Learn object-oriented programming (OOP) principles using Python. This course covers classes, objects, inheritance, polymorphism, and encapsulation in Python. Enhance your coding skills with the power of OOP."
     },
     {
         "id":6,
@@ -45,7 +45,7 @@
         "title": "Software Engineering",
         "credit": 2,
         "price": 23000,
-        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        "details": "Explore software development methodologies and best practices. You'll dive into the software development life cycle, version control, testing, and project management. Equip yourself with the knowledge to build high-quality software."
     },
     {
         "id":7,
@@ -53,7 +53,8 @@
         "title": "AWS, Cloud Computing",
         "credit": 5,
         "price": 35000,
-        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        "details": "Discover Amazon Web Services (AWS) and cloud computing. This course covers AWS services, infrastructure as code, security, and scalability. Prepare for a career in cloud technology with hands-on experience."
+
     },
     {
         "id":8,
@@ -61,7 +62,7 @@
         "title": "Database (MySQL)",
         "credit": 5,
         "price": 19000,
-        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        "details": "Master MySQL database management and SQL queries. From database design to data manipulation, this course covers it all. Acquire the skills needed to work with relational databases effectively."
     },
     { 
         "id":9,
@@ -69,6 +70,6 @@
         "title": "Problem-Solving Part",
         "credit": 2,
         "price": 23000,
-        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        "details": "Enhance your problem-solving skills with this course. Explore various problem-solving techniques, algorithms, and strategies used in the world of computer science and programming."
     }
 ]

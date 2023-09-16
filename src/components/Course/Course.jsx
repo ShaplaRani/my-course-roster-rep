@@ -8,7 +8,7 @@ const Course = ({course ,handleSelectCourse}) => {
         <div className=" bg-white p-4 rounded-xl">
             <img className='w-full'  src={image}alt="" ></img>
             <h3 className='text-lg font-semibold text-black mt-4 mb-3'>{title}</h3>
-             <p className='leading-6 text-sm font-normal text-gray-500'>{details}</p>
+             <p className='leading-6 h-32 text-sm font-normal text-gray-500'>{details}</p>
              <div className='my-5 flex items-center  justify-between p-5'>
                  
                 <h4 className='text-2xl md:text-lg lg:text-2xl'> $ </h4>
