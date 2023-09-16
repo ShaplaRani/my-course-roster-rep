@@ -5,7 +5,7 @@
         "title": "Introduction to C Programming",
         "credit": 1,
         "price": 15000,
-        "details":"This course covers the fundamentals of C programming language. You will learn about variables, data types, control structures, functions, and more. Whether you're a beginner or looking to refresh your C programming skills, this course is for you."
+        "details":"This course covers the fundamentals of C programming language.You will learn about variables, data types,  functions, and more. Whether you're a beginner or looking to refresh your C programming skills, this course is for you."
     },
     {
         "id":2,
@@ -13,7 +13,7 @@
         "title": "Introduction to Algorithms",
         "credit": 2,
         "price": 25000,
-        "details":"Explore essential algorithms and their applications in this comprehensive course. You will delve into sorting algorithms, searching algorithms, graph algorithms, and dynamic programming. Gain the problem-solving skills you need for various domains."
+        "details":"Explore essential algorithms and their applications in this comprehensive course. You will delve into sorting algorithms,searching algorithms, and dynamic programming.Gain the problem-solving skills you need for various domains."
     },
     {
         "id":3,
@@ -70,6 +70,6 @@
         "title": "Problem-Solving Part",
         "credit": 2,
         "price": 23000,
-        "details": "Enhance your problem-solving skills with this course. Explore various problem-solving techniques, algorithms, and strategies used in the world of computer science and programming."
+        "details": "Enhance your problem-solving skills with this course. Explore various problem-solving techniques or approaches,methods, algorithms, and strategies used in the world of computer science and programming."
     }
 ]
